@@ -1,0 +1,39 @@
+/*Клиенты*/
+.clients{
+    &--title{
+        margin-bottom: 50px;
+        }
+        &__list{
+            display: flex;
+            gap: 30px;
+        
+            
+        }
+        &__item{
+            flex-basis: calc(100% / 6);
+            border: 1px solid var(--icon-primary);
+            min-width: 170px;
+            min-height: 92px;
+            border-radius: 4px;
+        }
+        &__item:hover{
+            border: 1px solid var(--accent-txt);
+        }
+        
+        &__item:hover .clients__icon{
+            fill: var(--accent-txt);
+        }
+        
+        &__link{
+            min-height: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__icon{
+            fill: var(--icon-primary);
+        }
+        
+
+
+}

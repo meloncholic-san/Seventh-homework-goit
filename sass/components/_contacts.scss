@@ -1,0 +1,35 @@
+/*Contacts*/
+
+.contacts{  
+
+&--footer{
+    display: flex;
+    flex-direction: row;
+}
+&__item{
+    margin-bottom: 9px;
+}
+&__item:last-child{
+    margin: 0;
+}
+&__link{
+    display: block;   
+}
+&--link{
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
+&--address{
+    color:var(--primary-dark-txt);
+}
+
+&--mail,
+&--phone{
+    color:var(--secondary-footer-txt);
+}
+.footer--geoposition{
+    margin-top: 20px;
+}
+
+}

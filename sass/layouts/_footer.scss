@@ -1,0 +1,17 @@
+
+/*Футер*/
+.footer{
+    background-color: var(--primary-dark-bg);
+    padding-bottom: 60px;
+    padding-top: 60px;
+    &--logo{
+        margin-bottom: 20px;
+    }
+    
+    &--wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+

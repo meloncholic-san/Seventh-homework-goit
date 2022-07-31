@@ -1,0 +1,30 @@
+/*Root*/
+:root 
+{
+    /*Шрифты*/
+    --main-font: "Roboto",sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+    /*Светлая тема текста*/
+    --primary-light-txt: #212121;
+    --secondary-light-txt: #757575;
+    --accent-txt: #2196F3;
+    --logo-light-txt: #000000;
+    --logo-dark-txt: #ffffff;
+    /*Темная тема текста*/
+    --primary-dark-txt: #ffffff;
+    --secondary-dark-txt:#C4C4C4;
+    /*Светлая тема фона*/
+    --primary-light-bg: #E5E5E5;
+    --secondary-light-bg: #F5F4FA;
+    /*Темная тема фона*/
+    --primary-dark-bg: #2F303A;
+    /*Обычный цвет иконок команды*/
+    --icon-primary: #AFB1B8;
+    --secondary-footer-txt: rgba(255, 255, 255, 0.6);
+    /*Modal window black theme*/
+    --modal-primary: #212121;
+    /*Анимации*/
+    --main-animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+

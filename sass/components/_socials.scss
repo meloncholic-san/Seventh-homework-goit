@@ -1,0 +1,80 @@
+/*Socials*/
+.socials{
+    display: flex;
+
+
+    &--crew{
+        padding: 0 32px 30px;
+    }
+    &__link{
+        border-radius: 50%;
+        width: 44px;
+        height: 44px;
+        margin-right: 10px;
+        display: flex;
+        background-color: white;
+        transition: background-color var(--main-animation);
+
+    }
+    
+    &__link:last-child{
+        margin: 0;
+    }
+    .link--dark{
+        background-color: rgba(255, 255, 255,0.1);
+        transition: background-color var(--main-animation);
+    }
+    &__icon{
+        margin: auto auto;
+        transition: fill var(--main-animation);
+    
+    }
+
+    .crew--icon{
+        fill: var(--icon-primary);
+    }
+        
+ 
+    
+
+    &__link:focus .crew--icon,
+    &__link:hover .crew--icon{
+        fill: #ffffff;
+    }
+
+
+    
+    &__link:focus,
+    &__link:hover{
+        background-color: var(--accent-txt);
+        cursor:pointer;
+    }
+    
+    
+    &--footer{
+        margin-left: 72px;
+        flex-direction: column;    
+    }
+    
+    &--footer--caption{
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    }
+    &--dark--txt{
+        color: var(--logo-dark-txt);
+    }
+    
+    &--wrapper{
+        display: flex;
+    }
+    
+    &--dark--icon{
+        fill: var(--logo-dark-txt);
+    }
+
+}
+

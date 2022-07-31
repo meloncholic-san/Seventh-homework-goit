@@ -1,0 +1,22 @@
+
+/*Logo*/
+
+.logo{
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    &--white{
+        color:var(--logo-dark-txt);
+    }
+    &--blue{
+    color: var(--accent-txt);
+    }
+    
+    &--dark{
+    color: var(--logo-light-txt);
+    }
+    
+}
