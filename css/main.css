@@ -414,6 +414,11 @@ ul, ol {
   transition: color var(--main-animation);
 }
 
+.nav__link:hover,
+.nav__link:focus {
+  color: var(--accent-txt);
+}
+
 .backdrop {
   position: fixed;
   top: 0%;

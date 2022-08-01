@@ -2,6 +2,8 @@
 .nav__list{
     display: flex;
     align-items: center;
+
+
 }
 
 .nav-header{
@@ -27,4 +29,7 @@
     color: var(--primary-light-txt);
     transition: color var(--main-animation);   
 }
-
+.nav__link:hover,
+.nav__link:focus{
+    color: var(--accent-txt);
+}
