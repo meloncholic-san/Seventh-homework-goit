@@ -1,25 +1,58 @@
-/*Contacts*/
+/*Contacts footer*/
 
 .contacts{  
-
+    
+.header--list{
+    display: flex;
+    justify-content: end;
+}
 &--footer{
     display: flex;
     flex-direction: row;
 }
-&__item{
+
+.item--footer{
     margin-bottom: 9px;
 }
+.item--header{
+    margin-right: 30px;
+}
+
 &__item:last-child{
     margin: 0;
 }
 &__link{
+    
+    color: var(--secondary-light-txt);
     display: block;   
-}
-&--link{
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    font-style: normal;
 }
+&--header--link{
+    @include contacts--type(500,14px,1.14,0.02em);
+    display: flex;
+    align-items: center;
+    transition: color var(--main-animation);
+}
+&__svg{
+    fill: var(--secondary-light-txt);
+    transition: fill var(--main-animation);
+    margin-right: 10px;
+}
+
+
+&--header--link:hover &__svg,
+&--header--link:focus &__svg{
+    fill: var(--accent-txt);
+}
+
+&--header--link:hover,
+&--header--link:focus{
+    color: var(--accent-txt);
+
+}
+
 &--address{
     color:var(--primary-dark-txt);
 }

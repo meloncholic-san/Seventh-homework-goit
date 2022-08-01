@@ -1,6 +1,7 @@
 /*Секция особенности*/
 
 .speciality{
+
     &__list{
         display: flex;
     }
@@ -9,7 +10,9 @@
         margin-right: 30px;
         flex-basis: 270px;
     }
-    
+    &__item:last-child{
+        margin: 0;
+    }
     &__svg{
         display: flex;
         margin-bottom: 30px;

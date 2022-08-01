@@ -20,7 +20,8 @@
             border: 1px solid var(--accent-txt);
         }
         
-        &__item:hover .clients__icon{
+        &__link:hover .clients__icon,
+        &__link:focus .clients__icon{
             fill: var(--accent-txt);
         }
         
@@ -33,7 +34,6 @@
         &__icon{
             fill: var(--icon-primary);
         }
-        
 
 
 }

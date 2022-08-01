@@ -1,5 +1,9 @@
 //Utils
 @import "./utils/vars";
+@import "./utils/mixin";
+@import "./utils/active-page";
+@import "./utils/visially-hidden";
+
 //Base
 @import "./base/common";
 @import "./base/reset";
@@ -12,6 +16,9 @@
 @import "./components/contacts";
 @import "./components/logo";
 @import "./components/title";
+@import "./components/navigation";
+@import "./components/backdrop";
+
 
 
 
@@ -23,4 +30,5 @@
 @import "./layouts/projects";
 @import "./layouts/speciality";
 @import "./layouts/hat";
+@import "./layouts/portfolio";
 

@@ -1,0 +1,30 @@
+/*Navigation*/
+.nav__list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-header{
+    margin-left: 93px;
+}
+.nav__item{
+    margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    position: relative;
+}
+
+.nav__item:last-child{
+    margin: 0;
+}
+
+.nav__link
+{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primary-light-txt);
+    transition: color var(--main-animation);   
+}
+

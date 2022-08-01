@@ -6,11 +6,19 @@
     &--crew{
         padding: 0 32px 30px;
     }
+    &__list{
+        display: flex;
+    }
+    &__item{
+        margin-right: 10px;
+    }
+    &__item:last-child{
+        margin: 0;
+    }
     &__link{
         border-radius: 50%;
         width: 44px;
         height: 44px;
-        margin-right: 10px;
         display: flex;
         background-color: white;
         transition: background-color var(--main-animation);
@@ -30,15 +38,14 @@
     
     }
 
-    .crew--icon{
+    &--icon{
         fill: var(--icon-primary);
     }
-        
- 
+    
     
 
-    &__link:focus .crew--icon,
-    &__link:hover .crew--icon{
+    &__link:focus .socials--icon,
+    &__link:hover .socials--icon{
         fill: #ffffff;
     }
 
