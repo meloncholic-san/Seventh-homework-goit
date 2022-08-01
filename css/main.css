@@ -435,8 +435,9 @@ ul, ol {
   pointer-events: none;
   opacity: 1;
   visibility: visible;
-  -webkit-transition: opacity var(--main-animation), visibility var(--main-animation);
-  transition: opacity var(--main-animation), visibility var(--main-animation);
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transition: opacity var(--main-animation), visibility var(--main-animation), background var(--main-animation);
+  transition: opacity var(--main-animation), visibility var(--main-animation), background var(--main-animation);
   z-index: 100;
 }
 
@@ -444,6 +445,7 @@ ul, ol {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
+  background: rgba(0, 0, 0, 0);
 }
 
 .modal {
